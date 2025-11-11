@@ -4,7 +4,7 @@ import cssLogo from './assets/tech_logo/css.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import gsapLogo from './assets/tech_logo/gsap.png';
+import BootstrapLogo  from './assets/tech_logo/bootstrap.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
@@ -13,9 +13,9 @@ import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
-import vercelLogo from './assets/tech_logo/vercel.png';
-import framermotionLogo from './assets/tech_logo/framer.png';
+import javaLogo from './assets/tech_logo/java.png'
 import renderLogo from './assets/tech_logo/render.png';
+import mysqlLogo from './assets/tech_logo/mysql.png';
 
 
 // Education Section Logo's
@@ -40,6 +40,7 @@ import balaji from './assets/certificate_activity_img/balaji.png'
 import bbdu from './assets/certificate_activity_img/bbdu.png'
 import journal from './assets/certificate_activity_img/journal.png'
 import olevellogo from './assets/certificate_activity_img/nielit.jpg'
+import { BsBootstrap } from 'react-icons/bs';
 
 export const SkillsInfo = [
    { 
@@ -69,54 +70,61 @@ export const SkillsInfo = [
   },
   { 
     id: 6, 
-    name: 'GSAP', 
-    logo: gsapLogo 
+    name: 'BootStrap', 
+    logo: BootstrapLogo 
   },
+  // { 
+  //   id: 7, 
+  //   name: 'Framer Motion', 
+  //   logo: framermotionLogo
+  // },
   { 
     id: 7, 
-    name: 'Framer Motion', 
-    logo: framermotionLogo
-  },
-  { 
-    id: 8, 
     name: 'Node JS', 
     logo: nodejsLogo 
   },
   { 
-    id: 9, 
+    id: 8, 
     name: 'Express JS', 
     logo: expressjsLogo 
   },
   { 
-    id: 10, 
+    id: 9, 
     name: 'MongoDB', 
     logo: mongodbLogo 
   },
-  { 
+  {
+    id:10,
+    name:'MySql',
+    logo: mysqlLogo
+
+  },
+    { 
     id: 11, 
+    name: 'Java', 
+    logo: javaLogo
+  },
+  { 
+    id: 12, 
     name: 'Python', 
     logo: pythonLogo 
   },
   { 
-    id: 12, 
+    id: 13, 
     name: 'Git', 
     logo: gitLogo 
   },
   { 
-    id: 13, 
+    id: 14, 
     name: 'GitHub', 
     logo: githubLogo 
   },
   { 
-    id: 14, 
+    id: 15, 
     name: 'VS Code', 
     logo: vscodeLogo 
   },
-  { 
-    id: 15, 
-    name: 'Vercel', 
-    logo: vercelLogo 
-  },
+  
   { 
     id: 16, 
     name: 'Netlify', 
