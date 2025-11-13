@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
-import { education } from '../../constant'
+import { education } from "../../../constant";
+
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -75,6 +76,7 @@ useGSAP(() => {
                          <div className='flex flex-col text-center mt-5'>
                           <div>
                             <h3 className='text-lg md:text-md     font-semibold text-white'>{edu.degree}</h3>
+                            <h2 className='text-lg md:text-md     font-semibold text-white'>{edu.Domain}</h2>
                             <h4 className='text-xs md:text-md   text-gray-300'>{edu.school}</h4>
                           </div>
                           {/* date  */}

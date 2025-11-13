@@ -1,239 +1,242 @@
 // Skills Section Logo's
-import htmlLogo from './assets/tech_logo/html.png';
-import cssLogo from './assets/tech_logo/css.png';
-import javascriptLogo from './assets/tech_logo/javascript.png';
-import reactjsLogo from './assets/tech_logo/reactjs.png';
-import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import BootstrapLogo  from './assets/tech_logo/bootstrap.png';
-import nodejsLogo from './assets/tech_logo/nodejs.png';
-import expressjsLogo from './assets/tech_logo/express.png';
-import mongodbLogo from './assets/tech_logo/mongodb.png';
-import pythonLogo from './assets/tech_logo/python.png';
-import gitLogo from './assets/tech_logo/git.png';
-import githubLogo from './assets/tech_logo/github.png';
-import vscodeLogo from './assets/tech_logo/vscode.png';
-import netlifyLogo from './assets/tech_logo/netlify.png';
-import javaLogo from './assets/tech_logo/java.png'
-import renderLogo from './assets/tech_logo/render.png';
-import mysqlLogo from './assets/tech_logo/mysql.png';
-
+import htmlLogo from "./assets/tech_logo/html.png";
+import cssLogo from "./assets/tech_logo/css.png";
+import javascriptLogo from "./assets/tech_logo/javascript.png";
+import reactjsLogo from "./assets/tech_logo/reactjs.png";
+import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
+import BootstrapLogo from "./assets/tech_logo/bootstrap.png";
+import nodejsLogo from "./assets/tech_logo/nodejs.png";
+import expressjsLogo from "./assets/tech_logo/express.png";
+import mongodbLogo from "./assets/tech_logo/mongodb.png";
+import pythonLogo from "./assets/tech_logo/python.png";
+import gitLogo from "./assets/tech_logo/git.png";
+import githubLogo from "./assets/tech_logo/github.png";
+import vscodeLogo from "./assets/tech_logo/vscode.png";
+import netlifyLogo from "./assets/tech_logo/netlify.png";
+import javaLogo from "./assets/tech_logo/java.png";
+import renderLogo from "./assets/tech_logo/render.png";
+import mysqlLogo from "./assets/tech_logo/mysql.png";
 
 // Education Section Logo's
-import cbse from './assets/education_logo/cbse.png'
-import vbspu from './assets/education_logo/vbspu.png'
+import upBoard from "./assets/education_logo/upBoard.png";
+import foet from "./assets/education_logo/foet.png";
 // Project Section Logo's
-import powerflex from './assets/work_logo/powerflex.webp'
-import shopfinity from './assets/work_logo/shopfinity.webp';
-import grocify from './assets/work_logo/grocify.webp';
-import evion from './assets/work_logo/evion.webp';
+import powerflex from "./assets/work_logo/EduPlayRural.png";
+import shopfinity from "./assets/work_logo/Zerodha.png";
+import grocify from "./assets/work_logo/Zerodha.png";
+import evion from "./assets/work_logo/AiVoice.png";
 
-// certificates&extraCurriculuarActivities images 
-import mad from './assets/certificate_activity_img/mad.jpeg'
-import mern from './assets/certificate_activity_img/mern1.jpeg'
-import olevel from './assets/certificate_activity_img/olevel.jpg'
-import poster from './assets/certificate_activity_img/poster.jpeg'
-import publication from './assets/certificate_activity_img/publication.jpeg'
-import umaga from './assets/certificate_activity_img/umaga.jpeg'
-import poster1 from './assets/certificate_activity_img/myposter1.jpeg'
-import poster2 from './assets/certificate_activity_img/myposter2.jpeg'
-import balaji from './assets/certificate_activity_img/balaji.png'
-import bbdu from './assets/certificate_activity_img/bbdu.png'
-import journal from './assets/certificate_activity_img/journal.png'
-import olevellogo from './assets/certificate_activity_img/nielit.jpg'
-import { BsBootstrap } from 'react-icons/bs';
+// certificates&extraCurriculuarActivities images
+import mad from "./assets/certificate_activity_img/mad.jpeg";
+import mern from "./assets/certificate_activity_img/mern1.jpeg";
+import olevel from "./assets/certificate_activity_img/olevel.jpg";
+import poster from "./assets/certificate_activity_img/poster.jpeg";
+import publication from "./assets/certificate_activity_img/publication.jpeg";
+import umaga from "./assets/certificate_activity_img/umaga.jpeg";
+import poster1 from "./assets/certificate_activity_img/myposter1.jpeg";
+import poster2 from "./assets/certificate_activity_img/myposter2.jpeg";
+import balaji from "./assets/certificate_activity_img/balaji.png";
+import bbdu from "./assets/certificate_activity_img/bbdu.png";
+import journal from "./assets/certificate_activity_img/journal.png";
+import olevellogo from "./assets/certificate_activity_img/nielit.jpg";
+import { BsBootstrap } from "react-icons/bs";
+import { GrDomain } from "react-icons/gr";
 
 export const SkillsInfo = [
-   { 
-    id: 1, 
-    name: 'HTML', 
-    logo: htmlLogo 
-  },
-  { 
-    id: 2, 
-    name: 'CSS', 
-    logo: cssLogo 
-  },
-  { 
-    id: 3, 
-    name: 'JavaScript', 
-    logo: javascriptLogo 
-  },
-  { 
-    id: 4, 
-    name: 'React JS', 
-    logo: reactjsLogo 
-  },
-  { 
-    id: 5, 
-    name: 'Tailwind CSS', 
-    logo: tailwindcssLogo 
-  },
-  { 
-    id: 6, 
-    name: 'BootStrap', 
-    logo: BootstrapLogo 
-  },
-  // { 
-  //   id: 7, 
-  //   name: 'Framer Motion', 
-  //   logo: framermotionLogo
-  // },
-  { 
-    id: 7, 
-    name: 'Node JS', 
-    logo: nodejsLogo 
-  },
-  { 
-    id: 8, 
-    name: 'Express JS', 
-    logo: expressjsLogo 
-  },
-  { 
-    id: 9, 
-    name: 'MongoDB', 
-    logo: mongodbLogo 
+  {
+    id: 1,
+    name: "HTML",
+    logo: htmlLogo,
   },
   {
-    id:10,
-    name:'MySql',
-    logo: mysqlLogo
+    id: 2,
+    name: "CSS",
+    logo: cssLogo,
+  },
+  {
+    id: 3,
+    name: "JavaScript",
+    logo: javascriptLogo,
+  },
+  {
+    id: 4,
+    name: "React JS",
+    logo: reactjsLogo,
+  },
+  {
+    id: 5,
+    name: "Tailwind CSS",
+    logo: tailwindcssLogo,
+  },
+  {
+    id: 6,
+    name: "BootStrap",
+    logo: BootstrapLogo,
+  },
 
+  {
+    id: 7,
+    name: "Node JS",
+    logo: nodejsLogo,
   },
-    { 
-    id: 11, 
-    name: 'Java', 
-    logo: javaLogo
+  {
+    id: 8,
+    name: "Express JS",
+    logo: expressjsLogo,
   },
-  { 
-    id: 12, 
-    name: 'Python', 
-    logo: pythonLogo 
+  {
+    id: 9,
+    name: "MongoDB",
+    logo: mongodbLogo,
   },
-  { 
-    id: 13, 
-    name: 'Git', 
-    logo: gitLogo 
+  {
+    id: 10,
+    name: "MySql",
+    logo: mysqlLogo,
   },
-  { 
-    id: 14, 
-    name: 'GitHub', 
-    logo: githubLogo 
+  {
+    id: 11,
+    name: "Java",
+    logo: javaLogo,
   },
-  { 
-    id: 15, 
-    name: 'VS Code', 
-    logo: vscodeLogo 
+  {
+    id: 12,
+    name: "Python",
+    logo: pythonLogo,
   },
-  
-  { 
-    id: 16, 
-    name: 'Netlify', 
-    logo: netlifyLogo 
+  {
+    id: 13,
+    name: "Git",
+    logo: gitLogo,
   },
-  { 
-    id: 17, 
-    name: 'Render', 
-    logo: renderLogo 
+  {
+    id: 14,
+    name: "GitHub",
+    logo: githubLogo,
+  },
+  {
+    id: 15,
+    name: "VS Code",
+    logo: vscodeLogo,
+  },
+
+  {
+    id: 16,
+    name: "Netlify",
+    logo: netlifyLogo,
+  },
+  {
+    id: 17,
+    name: "Render",
+    logo: renderLogo,
   },
 ];
 
-  
-  export const education = [
-    {
-      id: 0,
-      img: bbdu,
-      school: "Babu Banarasi Das University, Lucknow",
-      date: "2023 - 2025",
-      grade: "78.67%",
-      degree: "Master of Computer Applications (MCA)",
-    },
-    {
-      id: 1,
-      img: vbspu,
-      school: "Veer Bahadur Singh Purvanchal University, Jaunpur",
-      date: "2020 - 2023",
-      grade: "56.20%",
-      degree: "Bachelor of Commerce (B.Com)",
-    },
-    {
-      id: 2,
-      img: cbse,
-      school: "Private Candidate",
-      date: "2019 - 2020",
-      grade: "70.80%",
-      degree: "CBSE(XII) - PCM",
-    },
-    {
-      id: 3,
-      img: cbse,
-      school: "BSY Shikshan Sansthan, Tulasipur, Ghazipur",
-      date: "2016 - 2017",
-      grade: "8.2 CGPA",
-      degree: "CBSE(X)",
-    },
-  ];
-  
-  export const projects = [
-    
-    {
-      id: 1,
-      title: "ShopFinity",
-      description:
-      "An interactive e-commerce web app built with React, Tailwind CSS, and Framer Motion. It features a product catalog powered by the Fake Store API with category filters and search, a wishlist that saves items using local storage, a shopping cart with quantity management, and an order system with a clear summary and confirmation modal. The platform also updates product listings instantly as users search or select categories, with smooth animations, smart notifications and a responsive UI for an easy shopping experience across devices.",
-      image: shopfinity,
-      tags: ["React.js","Tailwind CSS", "Framer Motion","REST API"],
-      github: "https://github.com/MohammadZakariya786/Shopfinity",
-      webapp: "https://shopfinity-six.vercel.app/",
-    },
-    {
-      id: 2,
-      title: "Grocify",
-      description:
-        "A modern, responsive online grocery website, built with React, Tailwind CSS, and GSAP for smooth animations and seamless user experience. Grocify provides category-based browsing, detailed product listings, smooth GSAP-powered transitions, and a fully responsive UI. The highlight feature is its AI-powered chatbot, built with React and Tailwind CSS, and optimized with predefined Q&A, knowledge base integration, Gemini AI API with key rotation, and domain restrictions for accurate and cost-effective responses.Deployment is handled on Vercel serverless functions, with secure environment variable management for API keys.",
-      image: grocify,
-      tags: ["React.js", "Tailwind CSS", "GSAP", "Gemini API", "AI Chatbot"],
-      github: "https://github.com/MohammadZakariya786/Grocify",
-      webapp: "https://grocify-alpha-three.vercel.app/",
-    },
+export const education = [
+  {
+    id: 0,
+    img: foet,
+    school: "University of Lucknow, Lucknow",
+    date: "2023 - 2027",
+    grade: "7.1 CGPA",
+    degree: "Bachelor of Technology",
+    Domain:"CSE",
+  },
+  {
+    id: 1,
+    img: foet,
+    school: "Veer Bahadur Singh Purvanchal University, Jaunpur",
+    date: "2020 - 2023",
+    grade: "56.20%",
+    degree: "Bachelor of Commerce (B.Com)",
+  },
+  {
+    id: 2,
+    img: upBoard,
+    school: "Private Candidate",
+    date: "2019 - 2020",
+    grade: "70.80%",
+    degree: "CBSE(XII) - PCM",
+  },
+  {
+    id: 3,
+    img: upBoard,
+    school: "BSY Shikshan Sansthan, Tulasipur, Ghazipur",
+    date: "2016 - 2017",
+    grade: "8.2 CGPA",
+    degree: "CBSE(X)",
+  },
+];
+
+export const projects = [
+  {
+    id: 1,
+    title: "Airbnb",
+    description:
+      "A full-stack travel accommodation platform built with Node.js, Express.js, and MongoDB. It features property listing, secure user authentication (JWT-based login/signup), and an optimized responsive UI for both desktop and mobile. Enhanced booking experience with advanced search and filtering options for smooth property discovery.",
+    image: shopfinity,
+    tags: ["JavaScripts", "Bootstrap", "Node.js", "Express.js", "MongoDB", "REST API"],
+    github: "https://github.com/ShivamKamal07/Airbnb",
+    webapp: "https://wanderlust-vtdo.onrender.com/listings",
+  },
+  {
+    id: 2,
+    title: "Zerodha",
+    description:
+      "A real-time stock trading simulation platform developed using React.js, Node.js, Express.js, and MongoDB. Includes portfolio management, live market API integration, and interactive data visualization using Chart.js/Recharts. Implements a role-based authentication system for realistic trading workflows and secure user sessions.",
+    image: grocify,
+    tags: ["React.js", "Node.js", "Express.js", "MongoDB","REST API", "Bootstrap"],
+    github: "https://github.com/ShivamKamal07/Zerodha",
+    webapp: "",
+  },
 
   {
-  id: 3,
-  title: "EVion",
-  description: "EVion is a modern, responsive landing page for EV charging solutions, built with React, Tailwind CSS, and GSAP for smooth animations. It features a responsive hero section, animated components, and a modern UI.",
-  image: evion, 
-  tags: ["React.js", "Tailwind CSS", "GSAP"],
-  github: "https://github.com/MohammadZakariya786/EVion",
-  webapp: "https://evion-two.vercel.app/"
-},
+    id: 3,
+    title: "AI-Voice-Interview-Platform",
+    description:
+      "An AI-powered voice interview system built with React.js, Node.js, Express.js, Firebase, and Google Gemini API. It enables real-time voice communication, automated question generation, and response evaluation. Designed with a secure backend, scalable data handling, and an intuitive dashboard for both users and administrators..",
+    image: evion,
+    tags: ["React.js", "Node.js", "FireBase", "Tailwind CSS","Gemini API","Vapi Workflows","typeScript"],
+    github: "https://github.com/ShivamKamal07/AI-Voice-Interview-Platform",
+    webapp: "https://voiceagent-px87.onrender.com",
+  },
   {
     id: 4,
-    title: "PowerFlex",
+    title: "EduPlayRural",
     description:
-      "MERN Stack Final Year Project | Feb 2025 – May 2025 : Developed a web application to streamline gym trainer hiring using the MERN stack. Implemented secure role-based authentication with JWT and Bcrypt.js. Enabled trainers to create profiles, upload certifications, and apply for jobs. Assisted in designing company dashboards for job posting, candidate review, and notifications. Collaborated with the existing backend structure to integrate role-based functionality for trainers and companies.",
+      "EduPlayRural is a web-based learning platform designed to make education more accessible for rural students. It offers interactive lessons, quizzes, smart notebooks, progress tracking, leaderboards, and an AI-powered chatbot — all within a bilingual (Hindi and English) dashboard.Built with Python (Django), HTML, CSS, and JavaScript, the platform provides personalized learning experiences where students can view progress across subjects like Hindi, English, Math, and Science, engage in self-assessment quizzes, and compete with peers through a leaderboard system.",
     image: powerflex,
-    tags: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/MohammadZakariya786/PowerFlex",
-    webapp: "https://powerflex.onrender.com/",
+    tags: [
+      "JavaScript",
+      "Python(Django)",
+      "Bootstrap",
+      "SQLite",
+      
+    ],
+    github: "https://github.com/ShivamKamal07/EduPlayRural",
+    webapp: "",
   },
-];  
+];
 
-
-  export const certificates =[
+export const certificates = [
   {
     id: 1,
     title: "MERN Stack",
     issuer: "Shri Balaji Infotech",
     date: "Feb 2025 - May 2025",
-    description: "Completed a 3-month MERN stack training covering MongoDB, ExpressJS, ReactJS, NodeJS, Tailwind Css, HTML, CSS, JavaScript.",
+    description:
+      "Completed a 3-month MERN stack training covering MongoDB, ExpressJS, ReactJS, NodeJS, Tailwind Css, HTML, CSS, JavaScript.",
     certificateImage: mern,
     logo: balaji,
   },
   {
     id: 2,
-    title: "Cyberbullying Detection: A Machine Learning Approach using Social Media Data",
+    title:
+      "Cyberbullying Detection: A Machine Learning Approach using Social Media Data",
     issuer: "IJSREM Journal",
     date: "January 2025",
-    description: "Published a research paper presenting a machine learning-based model for detecting cyberbullying on social media. The study applied text classification techniques, feature extraction using TF-IDF, and evaluated multiple algorithms including SVM, Decision Trees, Random Forests, and Naive Bayes, achieving a highest accuracy of 83%.",
+    description:
+      "Published a research paper presenting a machine learning-based model for detecting cyberbullying on social media. The study applied text classification techniques, feature extraction using TF-IDF, and evaluated multiple algorithms including SVM, Decision Trees, Random Forests, and Naive Bayes, achieving a highest accuracy of 83%.",
     certificateImage: publication,
     logo: journal,
   },
@@ -242,39 +245,43 @@ export const SkillsInfo = [
     title: "Mobile Application Development",
     issuer: "Babu Banarasi Das University, School of Computer Applications",
     date: "July 2024",
-    description: "Completed a Value Added Course on 'Mobile Application Development' offered by the School of Computer Applications at Babu Banarasi Das University.",
+    description:
+      "Completed a Value Added Course on 'Mobile Application Development' offered by the School of Computer Applications at Babu Banarasi Das University.",
     certificateImage: mad,
     logo: bbdu,
   },
   {
     id: 4,
     title: "O Level (1 year)",
-    issuer: "National Institute of Electronics and Information Technology (NIELIT)",
+    issuer:
+      "National Institute of Electronics and Information Technology (NIELIT)",
     date: "December 2023",
-    description: "Successfully completed all theory and practical modules of the DOEACC 'O' Level Examination, with an overall grade of 'B' and an overall percentage of 70.30%. The subjects covered included Information Technology Tools and Network Basics, Web Designing & Publishing, Programming and Problem Solving through Python, and Internet of Things and its Application.",
+    description:
+      "Successfully completed all theory and practical modules of the DOEACC 'O' Level Examination, with an overall grade of 'B' and an overall percentage of 70.30%. The subjects covered included Information Technology Tools and Network Basics, Web Designing & Publishing, Programming and Problem Solving through Python, and Internet of Things and its Application.",
     certificateImage: olevel,
     logo: olevellogo,
   },
-]
+];
 
 export const extraCurricularActivities = [
   {
     id: 1,
     title: "Poster Making Competition",
     date: "6 August 2024",
-    description: "Participated in the 'Poster Making Competition' at the EC Building, SOCA, BBD University, Lucknow, and designed a poster on Gender Equality that was featured on the college notice board.",
+    description:
+      "Participated in the 'Poster Making Competition' at the EC Building, SOCA, BBD University, Lucknow, and designed a poster on Gender Equality that was featured on the college notice board.",
     certificateImage: poster2,
   },
   {
-    id:2,
-    certificateImage:poster1
+    id: 2,
+    certificateImage: poster1,
   },
   {
     id: 3,
     title: "Workshop on Cyber Security and Ethical Hacking",
     date: "Oct 14, 2023",
-    description: "Participated in a workshop on Cyber Security and Ethical Hacking conducted by Umaga Technologies Pvt. Ltd., and organized by Team Lakshya, the official Event Management Team of SOCA.",
+    description:
+      "Participated in a workshop on Cyber Security and Ethical Hacking conducted by Umaga Technologies Pvt. Ltd., and organized by Team Lakshya, the official Event Management Team of SOCA.",
     certificateImage: umaga,
   },
 ];
-
