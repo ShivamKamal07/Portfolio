@@ -52,7 +52,7 @@ useGSAP(() => {
           
           
           {/* text content*/}
-          { (act.id===1 || act.id===3) &&(
+          { (act.id===1 || act.id === 2 || act.id===3) &&(
             
             
             <div className='flex flex-col mt-4'>

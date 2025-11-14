@@ -60,7 +60,7 @@ const Contact = () => {
     <div className='text-center mb-16'>
     <h2 className='text-4xl font-bold text-white'>CONTACT</h2>
     <div className='w-32 h-1 bg-purple-500 mx-auto mt-4'></div>
-    <p className='text-gray-400 mt-4 md:text-lg text-md font-semibold'>I'd love to hear from you-reach out for any opportunities or questions!</p>
+    <p className='text-gray-400 mt-4 md:text-lg text-md font-semibold'>I’m always open to new opportunities and conversations. Let’s connect and build something amazing together!</p>
     </div>
 
     {/* contact form  */}
