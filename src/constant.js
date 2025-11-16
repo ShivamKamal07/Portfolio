@@ -33,7 +33,7 @@ import cdac from "./assets/certificate_activity_img/cdac.png";
 import Ai from "./assets/certificate_activity_img/Ai.png";
 import Ailogo from "./assets/certificate_activity_img/Ailogo.jpeg";
 import GenAi from "./assets/certificate_activity_img/GenAi.jpeg";
-import GenAiLogo from "./assets/certificate_activity_img/GenAiLogo.png";
+import GenAiLogo from "./assets/certificate_activity_img/GenAilogo.png";
 import fullStack from "./assets/certificate_activity_img/fullStack.png";
 import fullStackLogo from "./assets/certificate_activity_img/fullStackLogo.png";
 
