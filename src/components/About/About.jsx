@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { TypeAnimation } from "react-type-animation";
 import Tilt from "react-parallax-tilt";
 import profile from "../../assets/profile.jpg";
-// import poster from '../../assets/certificate_activity_img/myposter1.jpeg';
+
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import _ScrollTrigger, { ScrollTrigger } from "gsap/ScrollTrigger";

@@ -43,12 +43,6 @@ import AiAgent from "./assets/certificate_activity_img/AiAgent.png";
 
 
 
-// import bbdu from "./assets/certificate_activity_img/bbdu.png";
-// import journal from "./assets/certificate_activity_img/journal.png";
-// import olevellogo from "./assets/certificate_activity_img/nielit.jpg";
-// import { BsBootstrap } from "react-icons/bs";
-// import { GrDomain } from "react-icons/gr";
-
 export const SkillsInfo = [
   {
     id: 1,
