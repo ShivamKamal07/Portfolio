@@ -21,10 +21,10 @@ import mysqlLogo from "./assets/tech_logo/mysql.png";
 import upBoard from "./assets/education_logo/upBoard.png";
 import foet from "./assets/education_logo/foet.png";
 // Project Section Logo's
-import powerflex from "./assets/work_logo/EduPlayRural.png";
-import shopfinity from "./assets/work_logo/Zerodha.png";
-import grocify from "./assets/work_logo/Zerodha.png";
-import evion from "./assets/work_logo/AiVoice.png";
+import EduPlayRural from "./assets/work_logo/EduPlayRural.png";
+import Airbnb from "./assets/work_logo/Airbnb.png";
+import Zerodha from "./assets/work_logo/Zerodha.png";
+import AiVoice from "./assets/work_logo/AiVoice.png";
 
 // certificates&extraCurriculuarActivities images
 
@@ -167,7 +167,7 @@ export const projects = [
     title: "Airbnb",
     description:
       "A full-stack travel accommodation platform built with Node.js, Express.js, and MongoDB. It features property listing, secure user authentication (JWT-based login/signup), and an optimized responsive UI for both desktop and mobile. Enhanced booking experience with advanced search and filtering options for smooth property discovery.",
-    image: shopfinity,
+    image: Airbnb,
     tags: [
       "JavaScripts",
       "Bootstrap",
@@ -184,7 +184,7 @@ export const projects = [
     title: "Zerodha",
     description:
       "A real-time stock trading simulation platform developed using React.js, Node.js, Express.js, and MongoDB. Includes portfolio management, live market API integration, and interactive data visualization using Chart.js/Recharts. Implements a role-based authentication system for realistic trading workflows and secure user sessions.",
-    image: grocify,
+    image: Zerodha,
     tags: [
       "React.js",
       "Node.js",
@@ -202,7 +202,7 @@ export const projects = [
     title: "AI-Voice-Interview-Platform",
     description:
       "An AI-powered voice interview system built with React.js, Node.js, Express.js, Firebase, and Google Gemini API. It enables real-time voice communication, automated question generation, and response evaluation. Designed with a secure backend, scalable data handling, and an intuitive dashboard for both users and administrators..",
-    image: evion,
+    image: AiVoice,
     tags: [
       "React.js",
       "Node.js",
@@ -220,7 +220,7 @@ export const projects = [
     title: "EduPlayRural",
     description:
       "EduPlayRural is a web-based learning platform designed to make education more accessible for rural students. It offers interactive lessons, quizzes, smart notebooks, progress tracking, leaderboards, and an AI-powered chatbot — all within a bilingual (Hindi and English) dashboard.Built with Python (Django), HTML, CSS, and JavaScript, the platform provides personalized learning experiences where students can view progress across subjects like Hindi, English, Math, and Science, engage in self-assessment quizzes, and compete with peers through a leaderboard system.",
-    image: powerflex,
+    image: EduPlayRural,
     tags: ["JavaScript", "Python(Django)", "Bootstrap", "SQLite"],
     github: "https://github.com/ShivamKamal07/EduPlayRural",
     webapp: "",
