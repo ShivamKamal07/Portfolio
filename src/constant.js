@@ -37,11 +37,9 @@ import GenAiLogo from "./assets/certificate_activity_img/GenAilogo.png";
 import fullStack from "./assets/certificate_activity_img/fullStack.png";
 import fullStackLogo from "./assets/certificate_activity_img/fullStackLogo.png";
 
-import Adobe from "./assets/certificate_activity_img/Adobe.png";
+import KaggleCommunityMember from "./assets/certificate_activity_img/KaggleCommunityMember.png";
 import prism from "./assets/certificate_activity_img/prism.png";
-import AiAgent from "./assets/certificate_activity_img/AiAgent.png";
-
-
+import Vampire from "./assets/certificate_activity_img/Vampire.png";
 
 export const SkillsInfo = [
   {
@@ -274,25 +272,26 @@ export const certificates = [
 export const extraCurricularActivities = [
   {
     id: 1,
-    title: "Adobe India Hackathon – Round 1 Qualification",
+    title: "Kaggle Community Member Badge",
     date: "2025",
     description:
-      "Received for completing Round 1: Online MCQ Assessment and Coding Challenge of the Adobe India Hackathon, organized by Adobe on the Unstop platform. Showcased programming fundamentals, problem-solving ability, and competitive coding skills.",
-    certificateImage: Adobe,
+      "Earned the Kaggle Community Member badge by actively participating in the Kaggle platform, engaging with datasets, notebooks, and discussions. This badge reflects my initiative to contribute to the global data science community and stay updated with practical data analysis and machine learning trends through collaboration and knowledge sharing.",
+    certificateImage: KaggleCommunityMember,
   },
   {
     id: 2,
     title: "PRISM 2024 TechFest – Certificate of Participation",
     date: "2024",
-    description: "Presented by the Faculty of Engineering and Technology, University of Lucknow, for active participation in TechFest – PRISM 2024. Recognized for contributing to the success of the two-day innovation and technology event with dedication and enthusiasm.",
+    description:
+      "Presented by the Faculty of Engineering and Technology, University of Lucknow, for active participation in TechFest – PRISM 2024. Recognized for contributing to the success of the two-day innovation and technology event with dedication and enthusiasm.",
     certificateImage: prism,
   },
   {
     id: 3,
-    title: "AI Agent Hackathon – Participation Certificate",
+    title: "Kaggle Vampire Badge",
     date: "2025",
     description:
-      "Awarded for successfully participating in the AI Agent Hackathon organized by Product Space via the Unstop platform. Demonstrated enthusiasm in AI-based problem solving and hands-on project collaboration.",
-    certificateImage: AiAgent,
+      "Achieved the Kaggle Vampire badge for consistent and active participation on the platform during late hours, demonstrating dedication and discipline towards learning and working on real-world problems. This badge represents commitment, curiosity, and continuous learning in the field of data science and machine learning.",
+    certificateImage: Vampire,
   },
 ];
