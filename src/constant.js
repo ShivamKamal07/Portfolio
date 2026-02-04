@@ -16,6 +16,7 @@ import netlifyLogo from "./assets/tech_logo/netlify.png";
 import javaLogo from "./assets/tech_logo/java.png";
 import renderLogo from "./assets/tech_logo/render.png";
 import mysqlLogo from "./assets/tech_logo/mysql.png";
+import VercelLogo from "./assets/tech_logo/vercel.png";
 
 // Education Section Logo's
 import upBoard from "./assets/education_logo/upBoard.png";
@@ -128,6 +129,11 @@ export const SkillsInfo = [
     id: 17,
     name: "Render",
     logo: renderLogo,
+  },
+  {
+    id: 18,
+    name: "Vercel",
+    logo: VercelLogo,
   },
 ];
 
