@@ -123,7 +123,7 @@ const About = () => {
           </p>
           {/* resume button*/}
           <a
-            href="https://drive.google.com/file/d/1ve3TqJQcVaHd2iDInNCGguAi658U56XQ/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1uKsorAKW5TL_02euFF3XDmLFfMxfiBZE/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="text-3  z-90 inline-block mt-5 px-8 py-3 text-white font-bold text-md rounded-full shadow-md transform hover:scale-105 active:scale-105 transition duration-300"
