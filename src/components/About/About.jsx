@@ -37,7 +37,7 @@ const About = () => {
           ease: "power2.inOut",
           delay: 0.1,
         },
-        "-=0.7"
+        "-=0.7",
       );
 
       tl.from(".imgCard2", {
@@ -58,7 +58,7 @@ const About = () => {
         ease: "sine.inOut",
       });
     },
-    { scope: containerRef }
+    { scope: containerRef },
   );
 
   useEffect(() => {
@@ -110,20 +110,22 @@ const About = () => {
           </h3>
           {/* about me paragraph  */}
           <p className="overflow-hidden text-2 gpu-boost text-sm sm:text-md md:text-md text-gray-400 mt-8 leading-relaxed">
-            I am a Full Stack Developer with hands-on experience in building
-            scalable, user-focused applications using React.js, Node.js,
-            Express.js, and MongoDB. I enjoy creating clean, responsive UIs and
-            integrating real-time features such as live market data,
-            authentication systems, and dynamic visualizations. Alongside
-            frontend development, I actively work on strengthening my backend
-            and system design skills to build end-to-end robust solutions. With
-            a strong interest in AI integration and automation, I aim to develop
-            impactful applications that combine intuitive design, efficient
-            workflows, and modern web technologies.
+            I’m a Full Stack Developer experienced in building scalable,
+            user-centric web applications using React.js, Node.js, Express.js,
+            and MongoDB. I specialize in developing responsive interfaces and
+            integrating real-time features using Socket.io, including live data
+            updates, event-driven communication, and secure authentication
+            systems. <br />I also work with AI integration to enhance application
+            functionality through intelligent automation and smarter user
+            interactions. Alongside frontend development, I continuously
+            strengthen my backend and system design skills to build robust,
+            end-to-end solutions. <br /> I’m particularly interested in creating
+            impactful applications that combine intuitive user experience,
+            real-time capabilities, and scalable architecture.
           </p>
           {/* resume button*/}
           <a
-            href="https://drive.google.com/file/d/1uKsorAKW5TL_02euFF3XDmLFfMxfiBZE/view?usp=sharing"
+            href="https://drive.google.com/file/d/1U1pJnP5xRfllKjV3SNozKyQaZin8InG_/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="text-3  z-90 inline-block mt-5 px-8 py-3 text-white font-bold text-md rounded-full shadow-md transform hover:scale-105 active:scale-105 transition duration-300"

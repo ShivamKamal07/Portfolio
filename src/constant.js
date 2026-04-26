@@ -17,11 +17,14 @@ import javaLogo from "./assets/tech_logo/java.png";
 import renderLogo from "./assets/tech_logo/render.png";
 import mysqlLogo from "./assets/tech_logo/mysql.png";
 import VercelLogo from "./assets/tech_logo/vercel.png";
+import PostmanLogo from "./assets/tech_logo/postman.png";
+import ThunderClientLogo from "./assets/tech_logo/thunderClient.png"
 
 // Education Section Logo's
 import upBoard from "./assets/education_logo/upBoard.png";
 import foet from "./assets/education_logo/foet.png";
 // Project Section Logo's
+import PharmaGuard from "./assets/work_logo/PharmaGuard.png"
 import EduPlayRural from "./assets/work_logo/EduPlayRural.png";
 import Airbnb from "./assets/work_logo/Airbnb.png";
 import Zerodha from "./assets/work_logo/Zerodha.png";
@@ -39,8 +42,8 @@ import fullStack from "./assets/certificate_activity_img/fullStack.png";
 import fullStackLogo from "./assets/certificate_activity_img/fullStackLogo.png";
 
 import KaggleCommunityMember from "./assets/certificate_activity_img/KaggleCommunityMember.png";
-import prism from "./assets/certificate_activity_img/prism.png";
 import Vampire from "./assets/certificate_activity_img/Vampire.png";
+import EyTechathon from "./assets/certificate_activity_img/EyTechthon.png"
 
 export const SkillsInfo = [
   {
@@ -135,6 +138,16 @@ export const SkillsInfo = [
     name: "Vercel",
     logo: VercelLogo,
   },
+  {
+    id: 19,
+    name: "Postman",
+    logo: PostmanLogo,
+  },
+  {
+    id: 20,
+    name: "Thunder Client",
+    logo: ThunderClientLogo,
+  },
 ];
 
 export const education = [
@@ -143,7 +156,7 @@ export const education = [
     img: foet,
     school: "University of Lucknow, Lucknow",
     date: "2023 - 2027",
-    grade: "7.1 CGPA",
+    grade: "7.46 CGPA",
     degree: "Bachelor of Technology",
     Domain: "CSE",
   },
@@ -185,7 +198,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Zerodha",
+    title: "Zerodha Trading Simulation",
     description:
       "A real-time stock trading simulation platform developed using React.js, Node.js, Express.js, and MongoDB. Includes portfolio management, live market API integration, and interactive data visualization using Chart.js/Recharts. Implements a role-based authentication system for realistic trading workflows and secure user sessions.",
     image: Zerodha,
@@ -228,6 +241,16 @@ export const projects = [
     tags: ["JavaScript", "Python(Django)", "Bootstrap", "SQLite"],
     github: "https://github.com/ShivamKamal07/EduPlayRural",
     webapp: "https://eduplayrural.onrender.com/",
+  },
+  {
+    id: 4,
+    title: "PharmaGuard – Genomic Risk Analysis SaaS",
+    description:
+      "Full Stack Developer specializing in MERN stack, with experience building a SaaS platform for genomic-based drug risk analysis. Implemented secure authentication (JWT, RBAC), real-time features using Socket.io, and an AI-powered backend pipeline for VCF parsing and clinical insight generation.",
+    image: PharmaGuard,
+    tags: ["NodeJs", "ExpressJs", "ReactJs", "MongoDB", "JavaScript", "Bootstrap", "openAI integration"],
+    github: "https://github.com/ShivamKamal07/pharmaguard",
+    webapp: "https://pharmaguard-srzo.vercel.app/",
   },
 ];
 
@@ -284,14 +307,15 @@ export const extraCurricularActivities = [
       "Earned the Kaggle Community Member badge by actively participating in the Kaggle platform, engaging with datasets, notebooks, and discussions. This badge reflects my initiative to contribute to the global data science community and stay updated with practical data analysis and machine learning trends through collaboration and knowledge sharing.",
     certificateImage: KaggleCommunityMember,
   },
-  {
+    {
     id: 2,
-    title: "PRISM 2024 TechFest – Certificate of Participation",
-    date: "2024",
+    title: "EY Techathon",
+    date: "2026",
     description:
-      "Presented by the Faculty of Engineering and Technology, University of Lucknow, for active participation in TechFest – PRISM 2024. Recognized for contributing to the success of the two-day innovation and technology event with dedication and enthusiasm.",
-    certificateImage: prism,
+      "Received a Certificate of Appreciation for participating in Round 2 (Detailed Presentation Submission) of a national-level competition organized by EY. Represented University of Lucknow as part of Team nilansha777, demonstrating problem-solving, analytical thinking, and presentation skills in a competitive environment.",
+    certificateImage: EyTechathon,
   },
+
   {
     id: 3,
     title: "Kaggle Vampire Badge",
@@ -300,4 +324,5 @@ export const extraCurricularActivities = [
       "Achieved the Kaggle Vampire badge for consistent and active participation on the platform during late hours, demonstrating dedication and discipline towards learning and working on real-world problems. This badge represents commitment, curiosity, and continuous learning in the field of data science and machine learning.",
     certificateImage: Vampire,
   },
+
 ];

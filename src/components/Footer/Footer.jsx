@@ -69,7 +69,7 @@ const Footer = () => {
         </div>
         {/* copyright text  */}
         <p className="text-sm text-gray-400 mt-6 ">
-          © 2025 Shivam kamal. All rights reserved.
+          © 2026 Shivam kamal. All rights reserved.
         </p>
       </div>
     </footer>
